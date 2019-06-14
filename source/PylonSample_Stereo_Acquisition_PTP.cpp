@@ -4,9 +4,9 @@ in the pylon C++ API documentation that gets installed with pylon.
 If you are upgrading to a higher major version of pylon, Basler also
 strongly recommends reading the Migration topic in the pylon C++ API documentation.
 
-This custom sample is not found in the standard Pylon SDK. It is released under the included Pylon License and is without warranty.
+This Sample will demostrate freerunning synchronized acquisition from dual cameras.
+It will also stitch the images side by side and save them to a .mp4 or .avi movie.
 
-This Sample will demostrate freerunning acquisition from dual cameras.
 Author: mbreit
 
 */
