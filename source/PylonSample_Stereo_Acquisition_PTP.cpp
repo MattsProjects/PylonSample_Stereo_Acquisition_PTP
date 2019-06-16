@@ -377,6 +377,7 @@ int main(int argc, char* argv[])
 #endif
 #ifdef PYLON_LINUX_BUILD
 					// There is no pylon image display in linux, so just cout the framecounters and timestamps of the images
+					// (or use opencv to display them, as below)
 					int64_t frameCounter_left = ptrGrabResult_Left->ChunkFramecounter.GetValue();
 					int64_t frameCounter_right = ptrGrabResult_Right->ChunkFramecounter.GetValue();
 					int64_t timestamp_left = ptrGrabResult_Left->ChunkTimestamp.GetValue();
@@ -415,6 +416,7 @@ int main(int argc, char* argv[])
 #endif
 #ifdef PYLON_LINUX_BUILD
 					// There is no pylon image display in linux, so just cout the framecounters and timestamps of the images
+					// (or use something like opencv to display them, as above)
 					int64_t frameCounter_left = ptrGrabResult_Left->ChunkFramecounter.GetValue();
 					int64_t frameCounter_right = ptrGrabResult_Right->ChunkFramecounter.GetValue();
 					int64_t timestamp_left = ptrGrabResult_Left->ChunkTimestamp.GetValue();
